@@ -1,0 +1,29 @@
+{
+  "name": "astro-aunty-test",
+  "version": "1.0.0-pre",
+  "description": "A project generated from aunty's basic project template.",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Joshua Byrd <phocks@gmail.com>"
+  ],
+  "aunty": {
+    "type": "basic"
+  },
+  "scripts": {
+    "start": "aunty serve",
+    "dev": "aunty serve",
+    "test": "aunty test"
+  },
+  "devDependencies": {
+    "@abcnews/aunty": "^14.0.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-astro": "^0.8.0"
+  },
+  "dependencies": {
+    "@abcnews/alternating-case-to-object": "^3.1.0",
+    "@abcnews/env-utils": "^3.1.0",
+    "@abcnews/mount-utils": "^2.0.0",
+    "astro": "^2.2.1"
+  }
+}
