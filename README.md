@@ -1,3 +1,3 @@
-# astro-aunty-test
+# Aunty + Astro
 
-A project generated from [aunty](https://github.com/abcnews/aunty)'s `basic` project template.
+An experiment in static site generation using Astro and Aunty.
