@@ -11,9 +11,10 @@
     "type": "svelte"
   },
   "scripts": {
-    "start": "aunty serve",
-    "dev": "aunty serve",
-    "test": "aunty test"
+    "start": "astro dev",
+    "dev": "astro dev",
+    "build": "aunty build && astro build",
+    "deploy": "aunty deploy"
   },
   "devDependencies": {
     "@abcnews/aunty": "^14.0.0",
