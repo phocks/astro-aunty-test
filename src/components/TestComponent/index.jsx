@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
-const TestComponent = props => {
+const ReactComponent = props => {
   return (
     <div className={styles.root}>
-      Find me in <strong>src/components/TestComponent</strong>
+      This is a React component
     </div>
   );
 };
 
-export default TestComponent;
+export default ReactComponent;

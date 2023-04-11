@@ -1,16 +1,20 @@
 ---
 // Welcome to Astro! Everything between these triple-dash code fences
 // is your "component front matter". It never runs in the browser.
-console.log('This runs in your terminal, not the browser!');
-import TestComponent from '../components/TestComponent';
-const x: string = 'hello';
-
+console.log("This runs in your terminal, not the browser!");
+import ReactComponent from "../components/TestComponent";
+import Worm from "../components/Worm";
+import SvelteComponentTest from "../components/SvelteComponentTest/SvelteComponentTest.svelte";
+const x: string = "hello Josh";
 ---
+
 <html>
   <body>
     <h1>Hello, World!</h1>
-    <TestComponent />
+    <ReactComponent />
     <p>{x}</p>
+    <div class="worm-container"><Worm /></div>
+    <SvelteComponentTest />
   </body>
 </html>
 
@@ -18,8 +22,12 @@ const x: string = 'hello';
   h1 {
     color: orange;
   }
+
   p {
-    color: blue;
+    color: #ff00ff;
   }
 
+  .worm-container {
+    width: 100px;
+  }
 </style>

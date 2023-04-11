@@ -18,14 +18,17 @@
   },
   "devDependencies": {
     "@abcnews/aunty": "^14.0.0",
+    "@testing-library/svelte": "^3.2.2",
     "prettier": "^2.8.7",
     "prettier-plugin-astro": "^0.8.0",
     "react-test-renderer": "^18.2.0"
   },
   "dependencies": {
     "@astrojs/react": "^2.1.1",
+    "@astrojs/svelte": "^2.1.0",
     "astro": "^2.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "svelte": "^3.58.0"
   }
 }
