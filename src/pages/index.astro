@@ -2,10 +2,10 @@
 // Welcome to Astro! Everything between these triple-dash code fences
 // is your "component front matter". It never runs in the browser.
 console.log("This runs in your terminal, not the browser!");
-import ReactComponent from "../components/TestComponent";
+import ReactComponent from "../components/ReactComponent";
 import Worm from "../components/Worm";
-import SvelteComponentTest from "../components/SvelteComponentTest/SvelteComponentTest.svelte";
-const x: string = "hello Josh";
+import SvelteComponent from "../components/SvelteComponent/SvelteComponent.svelte";
+const x: string = "hello, this is a string variable";
 ---
 
 <html>
@@ -13,8 +13,11 @@ const x: string = "hello Josh";
     <h1>Hello, World!</h1>
     <ReactComponent />
     <p>{x}</p>
-    <div class="worm-container"><Worm /></div>
-    <SvelteComponentTest />
+    <Worm />
+    <p>
+      The above logo was generated with the `aunty generate component` command.
+    </p>
+    <SvelteComponent client:idle />
   </body>
 </html>
 
@@ -25,9 +28,5 @@ const x: string = "hello Josh";
 
   p {
     color: #ff00ff;
-  }
-
-  .worm-container {
-    width: 100px;
   }
 </style>

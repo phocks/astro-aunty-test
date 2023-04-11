@@ -1,5 +1,5 @@
 <script>
-
+  console.log('Svelte component loaded');
 </script>
 
 <div>
