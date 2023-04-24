@@ -1,10 +1,13 @@
-<script>
-  console.log('Svelte component loaded');
+<script lang="ts">
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    const x: string = "Hello World!";
+    console.log("Svelte component loaded:", x);
+  });
 </script>
 
-<div>
-  This is a Svelte component
-</div>
+<div>This is a Svelte component</div>
 
 <style lang="scss">
   div {
