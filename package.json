@@ -11,8 +11,8 @@
     "type": "astro"
   },
   "scripts": {
-    "start": "astro dev",
-    "dev": "astro dev",
+    "start": "aunty build && astro dev",
+    "dev": "aunty build && astro dev",
     "build": "aunty build && astro build",
     "deploy": "NODE_ENV=production aunty deploy"
   },
